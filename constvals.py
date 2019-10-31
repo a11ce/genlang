@@ -1,9 +1,12 @@
 # morphology 
-ANALYTIC = "analytic"
-FUSIONAL = "fusional"
-AGGLUTINATIVE = "agglutivative"
-MORPHOLOGY_TYPES = [ANALYTIC,FUSIONAL,AGGLUTINATIVE]
+MORPHOLOGY_TYPES = ["isolating",
+                    "agglutinative",
+                    #"fusional",
+                    #polysynthetic,
+                    ]
 
 # syllable components
-VOWELS = list("aeiouyàáâãäåæéêëìíîòóôõöøùúûüýūůű")
-CONSONANTS = list("bcdfghjklmnpqrstvwxzçðñþřśŝşšŧŵ")
+#VOWELS = list("aeiouyàáâãäåæéêëìíîòóôõöøùúûüýūůű")
+VOWELS = list("aeiouy")
+#CONSONANTS = list("bcdfghjklmnpqrstvwxzçðñþřśŝşšŧŵ")
+CONSONANTS = list("bcdfghjklmnpqrstvwxz")
