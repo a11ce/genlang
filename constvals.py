@@ -1,9 +1,10 @@
-# morphology 
-MORPHOLOGY_TYPES = ["isolating",
-                    "agglutinative",
-                    #"fusional",
-                    #polysynthetic,
-                    ]
+# morphology
+MORPHOLOGY_TYPES = [
+    "isolating",
+    "agglutinative",
+    #"fusional",
+    #polysynthetic,
+]
 
 # syllable components
 #VOWELS = list("aeiouyàáâãäåæéêëìíîòóôõöøùúûüýūůű")
