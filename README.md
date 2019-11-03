@@ -2,10 +2,9 @@
 
 > Experiments in procedurally generated constructed languages. 
 
-## Installation
+## Setup
 
 - Download with `git clone https://github.com/a11ce/genlang.git`
-- Run with `python3 language.py`
 
 ## Usage
 
