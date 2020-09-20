@@ -1,0 +1,16 @@
+;verbs
+be
+have
+do
+say
+can
+get
+;nouns
+time
+year
+person
+day
+thing
+;markers
+pl
+sing

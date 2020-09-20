@@ -2,12 +2,11 @@
 MORPHOLOGY_TYPES = [
     "isolating",
     "agglutinative",
-    #"fusional",
-    #polysynthetic,
 ]
 
 # syllable components
 #VOWELS = list("aeiouyàáâãäåæéêëìíîòóôõöøùúûüýūůű")
-VOWELS = list("aeiouy")
+#VOWELS = list("aeiouyàåæëõøýūnmlr")
+VOWELS = list("aeiouynmlr")
 #CONSONANTS = list("bcdfghjklmnpqrstvwxzçðñþřśŝşšŧŵ")
 CONSONANTS = list("bcdfghjklmnpqrstvwxz")

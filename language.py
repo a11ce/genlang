@@ -2,6 +2,7 @@ import random
 import constvals as cv
 
 import phonology
+import vocabulary
 
 
 class Language:
@@ -22,6 +23,9 @@ class Language:
         self.minMorphemeLen = random.randint(1, 2)
         self.maxMorphemeLen = random.randint(2, 3)
 
+        self.marksNumber = random.choice([True, False])
+
+        self.dictionary = vocabulary.newVocabulary(self.newMorpheme)
         self.languageName = self.newMorpheme().capitalize()
 
     def newMorpheme(self):
