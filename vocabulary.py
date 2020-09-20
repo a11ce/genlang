@@ -11,5 +11,5 @@ def newVocabulary(newMorphemeF):
                 vocab[curCat] = {}
             else:
                 vocab[curCat][line.strip()] = newMorphemeF()
-    print(vocab)
+    #print(vocab)
     return vocab
