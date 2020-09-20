@@ -1,6 +1,6 @@
 def newVocabulary(newMorphemeF):
     vocab = {}
-    with open('words.ls') as f:
+    with open('./words.ls') as f:
         curCat = ""
         for line in f:
             if line[0] == ";":
