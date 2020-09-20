@@ -1,5 +1,5 @@
 import random
-import constvals as cv
+from . import constvals as cv
 
 
 def newPhonology():

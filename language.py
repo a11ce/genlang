@@ -1,8 +1,8 @@
 import random
-import constvals as cv
+from . import constvals as cv
 
-import phonology
-import vocabulary
+from . import phonology
+from . import vocabulary
 
 
 class Language:
